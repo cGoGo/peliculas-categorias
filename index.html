@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Cine Stark</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-12 text-center">
+				Cine Stark
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 formulario">
+				<select class="form-control">
+					<option id="todo" value="todos">Todas las categorías</option>
+					<option value="accion">Acción</option>
+					<option value="comedia">Comedia</option>
+					<option value="infantil">Infantil</option>
+					<option value="terror">Terror</option>
+					<option value="suspenso">Suspenso</option>
+				</select>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 peliculas text-center">
+				<div class="todos terror">
+					<img src="img/annabelle.jpg" class="img-responsive img-thumbnail" data-toggle="modal" data-target="#annabelle">
+				</div>
+				<div class="todos terror">
+					<img src="img/conjuro2.jpg" class="img-responsive img-thumbnail" data-toggle="modal" data-target="#conjuro">
+				</div>
+				<div class="todos infantil">
+					<img src="img/dory.jpg" alt="Buscando a Dory" class="img-responsive img-thumbnail" data-toggle="modal" data-target="#dory">
+				</div>
+				<div class="todos accion">
+					<img src="img/duro-de-matar.jpg" alt="Duro de matar" class="img-responsive img-thumbnail" data-toggle="modal" data-target="#duroMatar">
+				</div>
+				<div class="todos comedia">
+					<img src="img/esposa-mentiras.jpg" alt="Una esposa de mentiras" class="img-responsive img-thumbnail" data-toggle="modal" data-target="#esposaMentiras">
+				</div>
+				<div class="todos infantil">
+					<img src="img/grandinosaurio.jpg" alt="EL Gran Dinosaurio" class="img-responsive img-thumbnail" data-toggle="modal" data-target="#granDino">
+				</div>
+				<div class="todos suspenso">
+					<img src="img/isla-siniestra.jpg" alt="Isla siniestra" class="img-responsive img-thumbnail" data-toggle="modal" data-target="#islaSiniestra">
+				</div>
+				<div class="todos comedia">
+					<img src="img/liar-liar.jpg" alt="Mentiroso Mentiroso" class="img-responsive img-thumbnail" data-toggle="modal" data-target="#mentiroso">
+				</div>
+				<div class="todos accion">
+					<img src="img/mision-imposible.jpg" alt="Mision Imposible" class="img-responsive img-thumbnail" data-toggle="modal" data-target="#misionImposible">
+				</div>
+				<div class="todos infantil">
+					<img src="img/ponyo.jpg" alt="Ponyo" class="img-responsive img-thumbnail" data-toggle="modal" data-target="#ponyo">
+				</div>
+				<div class="todos suspenso">
+					<img src="img/silencio-corderos.jpg" alt="El silencio de los corderos" class="img-responsive img-thumbnail" data-toggle="modal" data-target="#silencio">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Anabelle -->
+	<div class="modal fade" id="annabelle" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" class="glyphicon glyphicon-remove-circle"></span></button>
+	        <h4 class="modal-title" id="myModalLabel">Annabelle</h4>
+	      </div>
+	      <div class="modal-body text-center">
+	        <h4>Descripción</h4>
+	        <p id="descripcion">
+	        		Annabelle es una película estadounidense de terror dirigida por John R. Leonetti y escrita por Gary Dauberman. Se trata de una precuela y un \"spin-off\" de la película: El conjuro. Está protagonizada por <b>Annabelle Wallis</b> y <b>Ward Horton</b>. Se estrenó el 3 de octubre de 2014 en Estados Unidos.
+	        </p>
+	        <h4>Reparto</h4>
+	        <img src="http://withoutmakeup.org/wp-content/uploads/2016/04/Annabelle-Wallis-150x150.jpg" class="img-thumbnail">
+	        <img src="http://images.commeaucinema.com/news/150_328385.jpg" class="img-thumbnail">
+	      </div>
+	      <div class="modal-footer">
+	        <iframe src="https://www.youtube.com/embed/8kmLHwKH31M" frameborder="0" allowfullscreen></iframe>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!-- El conjuro 2 -->
+	<div class="modal fade" id="conjuro" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" class="glyphicon glyphicon-remove-circle"></span></button>
+	        <h4 class="modal-title" id="myModalLabel">El Conjuro 2</h4>
+	      </div>
+	      <div class="modal-body text-center">
+	        <h4>Descripción</h4>
+	        <p id="descripcion">
+	        	Es una película estadounidense perteneciente al género de terror dirigida por James Wan. Es la secuela de la película de terror El Conjuro, que fue lanzada el 19 de julio de 2013. <b>Patrick Wilson</b> y <b>Vera Farmiga</b> repiten sus papeles como el matrimonio de investigadores paranormales Ed y Lorraine Warren.
+	        </p>
+	        <h4>Reparto</h4>
+	        <img src="http://withoutmakeup.org/wp-content/uploads/2015/10/Vera-Farmiga-Without-Makeup-150x150.jpg" class="img-thumbnail">
+	        <img src="https://scontent.cdninstagram.com/t51.2885-19/s150x150/13561985_1319142694782101_884154066_a.jpg" class="img-thumbnail">
+	      </div>
+	      <div class="modal-footer">
+	        <iframe src="https://www.youtube.com/embed/hdwyVF97hgY" frameborder="0" allowfullscreen></iframe>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!-- Buscando a Dory -->
+	<div class="modal fade" id="dory" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" class="glyphicon glyphicon-remove-circle"></span></button>
+	        <h4 class="modal-title" id="myModalLabel">Buscando a Dory</h4>
+	      </div>
+	      <div class="modal-body text-center">
+	        <h4>Descripción</h4>
+	        <p id="descripcion">
+	        	Buscando a Dory es una película estadounidense en animación 3D por ordenador. Es la secuela de Buscando a Nemo, también es distribuida por Walt Disney Pictures y producida por Pixar y dirigida por Andrew Stanton, que dirigió la película original, y regresó como escritor y director, junto a Angus MacLane como el codirector.2 3 Su estreno fue el día 16 de junio de 2016. Volvieron a aparecer algunos personajes de la película anterior, además de Dory están Nemo, Marlin y la pandilla del acuario.
+	        </p>
+	        --<!--<h4>Reparto</h4>
+	        <img src="" class="img-thumbnail">
+	        <img src="" class="img-thumbnail">-->
+	      </div>
+	      <div class="modal-footer">
+	        <iframe src="https://www.youtube.com/embed/3zoXVQ4g7Y8" frameborder="0" allowfullscreen></iframe>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!-- Duro de Matar -->
+	<div class="modal fade" id="duroMatar" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" class="glyphicon glyphicon-remove-circle"></span></button>
+	        <h4 class="modal-title" id="myModalLabel">Duro de Matar</h4>
+	      </div>
+	      <div class="modal-body text-center">
+	        <h4>Descripción</h4>
+	        <p id="descripcion">
+	        	Duro de matar, es una película de acción estadounidense de 1988 dirigida por John McTiernan y escrita por Steve de Souza y Jeb Stuart, basada en la novela Nothing Lasts Forever de Roderick Thorp, publicada en 1979. Sigue al oficial fuera de servicio del Departamento de Policía de Nueva York John McClane mientras se enfrenta a un grupo de criminales altamente organizados liderados por Hans Gruber, que realizan un atraco en un rascacielos de Los Angeles bajo el pretexto de un ataque terrorista utilizando a rehenes, incluyendo a la esposa de McClane, para mantener a raya a la policía.
+	        </p>
+	        <h4>Reparto</h4>
+	        <img src="https://baldingblog.com/photos/060302_brucewillis.jpg" class="img-thumbnail">
+	        <img src="http://my.xfinity.com/blogs/tv/files/2010/02/150-parenthood-bonnie.jpg" class="img-thumbnail">
+	      </div>
+	      <div class="modal-footer">
+	        <iframe src="https://www.youtube.com/embed/_77FtiLPFLM" frameborder="0" allowfullscreen></iframe>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!-- Una esposa de mentiras -->
+	<div class="modal fade" id="esposaMentiras" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" class="glyphicon glyphicon-remove-circle"></span></button>
+	        <h4 class="modal-title" id="myModalLabel">Una esposa de mentiras</h4>
+	      </div>
+	      <div class="modal-body text-center">
+	        <h4>Descripción</h4>
+	        <p id="descripcion">
+	        	Danny es un exitoso cirujano plástico que finge ser un infeliz marido para ligar con mujeres. Cuando finalmente conoce a una chica llamada Palmer de la que se enamora, y tras acostarse juntos ella descubre la alianza de boda que él utiliza. Por miedo de decirle la verdad (y como ha hecho desde hacia varios años), él le dice que está en proceso de divorcio, a lo que ella le responde que quiere conocer a su futura ex-esposa. Así que Danny le pide a su ayudante, Katherine, que se haga pasar por su esposa con el fin de probar su historia, pero una mentira se convierte en otra, lo que lleva a los niños de Katherine al embrollo. Finalmente en un viaje a Hawái todos cambiarán sus vidas.
+	        </p>
+	        <h4>Reparto</h4>
+	        <img src="http://whosdatedwho.net/wp-content/uploads/2016/01/Adam-Sandler-150x150.jpg" class="img-thumbnail">
+	        <img src="http://quienes.info/wp-content/uploads/2015/11/Jennifer-150x150.jpg" class="img-thumbnail">
+	      </div>
+	      <div class="modal-footer">
+	        <iframe src="https://www.youtube.com/embed/Q_kkTZG3mBw" frameborder="0" allowfullscreen></iframe>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!-- Gran Dinosaurio -->
+	<div class="modal fade" id="granDino" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" class="glyphicon glyphicon-remove-circle"></span></button>
+	        <h4 class="modal-title" id="myModalLabel">Un gran Dinosaurio</h4>
+	      </div>
+	      <div class="modal-body text-center">
+	        <h4>Descripción</h4>
+	        <p id="descripcion">
+	        	¿Qué hubiera ocurrido si el asteroide que cambió para siempre la vida en la Tierra no hubiera impactado contra el planeta y los dinosaurios jamás se hubieran extinguido? Pixar Animation Studios te lleva en un viaje extraordinario al mundo de los dinosaurios, donde un Apatosaurio llamado Arlo gana un compañero bastante improbable en el camino: un niño humano. Mientras viaja a través de un paisaje montañoso y misterioso, Arlo aprende a confrontar sus temores y descubre lo que realmente es capaz de hacer"
+	        </p>
+	        <!--<h4>Reparto</h4>
+	        <img src="" class="img-thumbnail">
+	        <img src="" class="img-thumbnail">-->
+	      </div>
+	      <div class="modal-footer">
+	        <iframe src="https://www.youtube.com/embed/6CQs9AGEjlU" frameborder="0" allowfullscreen></iframe>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!-- La isla siniestra -->
+	<div class="modal fade" id="islaSiniestra" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" class="glyphicon glyphicon-remove-circle"></span></button>
+	        <h4 class="modal-title" id="myModalLabel">La isla siniestra</h4>
+	      </div>
+	      <div class="modal-body text-center">
+	        <h4>Descripción</h4>
+	        <p id="descripcion">
+	        	Es una película de suspense de 2010 dirigida por Martin Scorsese y protagonizada por Leonardo DiCaprio. La producción está basada en la novela homónima escrita por Dennis Lehane. La historia cuenta la investigación de dos agentes federales enviados a una institución mental llamada Shutter Island, con el fin de buscar a Rachel Solando, una paciente psicótica que ha escapado misteriosamente de su celda. Daniels (DiCaprio) tiene además en su mente los recuerdos del campo de concentración de Dachau.
+	        </p>
+	        <h4>Reparto</h4>
+	        <img src="http://entretenimiento.starmedia.com/imagenes/2016/03/Leonardo-DiCaprio-150x150.png" class="img-thumbnail">
+	        <img src="http://frostsnow.com/assets/thumbnails/14/14c05149f0e95e93fac675b403d42615.jpg" class="img-thumbnail">
+	      </div>
+	      <div class="modal-footer">
+	        <iframe src="https://www.youtube.com/embed/95z6iWCjEgc" frameborder="0" allowfullscreen></iframe>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!-- Liar Liar -->
+	<div class="modal fade" id="mentiroso" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" class="glyphicon glyphicon-remove-circle"></span></button>
+	        <h4 class="modal-title" id="myModalLabel">Mentiroso Mentiroso</h4>
+	      </div>
+	      <div class="modal-body text-center">
+	        <h4>Descripción</h4>
+	        <p id="descripcion">
+	        	Fletcher Reede es un joven y extrovertido abogado cuyo secreto para ganar todos los casos es mentir. Haciendo gala de una habilidad portentosa ligada a la verdad para defender a su cliente, Fletcher siempre se las apaña para acabar haciendo todo lo contrario sin que nadie se dé cuenta. Este don de la mentira lo ejerce tanto en el campo profesional como en el personal, razón por la cual su mujer, Audry (Maura Tierney), se ha divorciado de él.
+	        </p>
+	        <h4>Reparto</h4>
+	        <img src="https://www.looktothestars.org/photo/498-jim-carrey/teaser-1379527674.jpg" class="img-thumbnail">
+	        <img src="http://musicacinetv.com/page/wp-content/uploads/2016/02/Maura-Tierney-150x150.jpg" class="img-thumbnail">
+	      </div>
+	      <div class="modal-footer">
+	        <iframe src="https://www.youtube.com/embed/R-uyv-kKo64" frameborder="0" allowfullscreen></iframe>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!-- Mision Imposible -->
+	<div class="modal fade" id="misionImposible" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" class="glyphicon glyphicon-remove-circle"></span></button>
+	        <h4 class="modal-title" id="myModalLabel">Mision Imposible</h4>
+	      </div>
+	      <div class="modal-body text-center">
+	        <h4>Descripción</h4>
+	        <p id="descripcion">
+	        	La característica de las misiones de este equipo de espías es que serían prácticamente imposibles para cualquier grupo común de agentes. Las misiones son inverosímiles y los agentes se convierten en superagentes. En esta versión, el grupo de agentes ultrasecretos debe recuperar un disco para computadora que tiene importante información para el gobierno. En el intento mueren varios agentes y el protagonista de la película es acusado de su muerte. Además de intentar recuperar el material robado, el agente Ethan Hunt, protagonizado por Tom Cruise, deberá probar su inocencia.
+	        </p>
+	        <h4>Reparto</h4>
+	        <img src="http://dondeycuanto.com/wp-content/uploads/2016/01/cuanto-mide-tom-cruise-150x150.jpg" class="img-thumbnail">
+	        <img src="http://www.crazywallpapers.xyz/wp-content/uploads/2016/06/emmanuelle-beart-daniel-auteuil-150x150.jpg" class="img-thumbnail">
+	      </div>
+	      <div class="modal-footer">
+	        <iframe src="https://www.youtube.com/embed/QBavzf2_ook" frameborder="0" allowfullscreen></iframe>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!-- Ponyo -->
+	<div class="modal fade" id="ponyo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" class="glyphicon glyphicon-remove-circle"></span></button>
+	        <h4 class="modal-title" id="myModalLabel">Ponyo</h4>
+	      </div>
+	      <div class="modal-body text-center">
+	        <h4>Descripción</h4>
+	        <p id="descripcion">
+	        	Es una película de animación japonesa del estudio de animación Studio Ghibli, escrita y dirigida por Hayao Miyazaki, director de La princesa Mononoke, El viaje de Chihiro y El castillo ambulante. Se trata de la octava producción dirigida por Miyazaki con Ghibli y la decimoséptima del estudio. Esta película fue presentada el 27 de junio de 2008 en los cines japoneses e hizo su debut en el Festival de Cine de Venecia a finales de agosto de 2008 convirtiéndose en una de las favoritas para el León de Oro. En España se estrenó en los cines el 24 de abril de 2009 mediante la distribuidora española eOne Films.
+	        </p>
+	        <!--<h4>Reparto</h4>
+	        <img src="" class="img-thumbnail">
+	        <img src="" class="img-thumbnail">-->
+	      </div>
+	      <div class="modal-footer">
+	        <iframe src="https://www.youtube.com/embed/GNzdX3YWWs4" frameborder="0" allowfullscreen></iframe>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+		<!-- El silencio de los corderos -->
+	<div class="modal fade" id="silencio" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" class="glyphicon glyphicon-remove-circle"></span></button>
+	        <h4 class="modal-title" id="myModalLabel">Silencio de los Corderos</h4>
+	      </div>
+	      <div class="modal-body text-center">
+	        <h4>Descripción</h4>
+	        <p id="descripcion">
+	        	Es una película estadounidense de 1991 de género thriller, que combina tintes de crimen y terror. Fue dirigida por Jonathan Demme y presenta a Jodie Foster, Anthony Hopkins y Scott Glenn en los papeles principales. La película está basada en la novela homónima de Thomas Harris, escrita en 1988 como secuela de El dragón rojo (1981), del mismo autor, que relata la historia de Hannibal Lecter, un brillante psiquiatra y a la vez asesino en serie y caníbal.
+	        </p>
+	        <h4>Reparto</h4>
+	        <img src="http://hdpics.co/wp-content/uploads/2016/05/Jodie-foster-3-150x150.jpg" class="img-thumbnail">
+	        <img src="http://frostsnow.com/assets/thumbnails/98/98b79c755daff16d5cc467e6be9cf7b8.jpg" class="img-thumbnail">
+	      </div>
+	      <div class="modal-footer">
+	        <iframe src="https://www.youtube.com/embed/__0EAB-Fl0s" frameborder="0" allowfullscreen></iframe>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+
+	<script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

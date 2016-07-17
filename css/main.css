@@ -1,0 +1,40 @@
+* {
+	font-family: 'Josefin Sans', sans-serif;
+}
+body {
+	background: #900C3E;
+}
+.container-fluid {
+	background: #FFC300;
+	color: #571845;
+	font-weight: 700;
+	padding: 15px;
+	font-size: 3em;
+}
+.formulario {
+	padding: 4%;
+}
+.todos {
+	width: 22%;
+	display: inline-block;
+	margin: 1.2%;
+}
+iframe {
+	width: 80%;
+}
+.modal-footer {
+	text-align: center;
+}
+
+@media (min-width: 550px) and (max-width: 780px) {
+	.todos {
+		width: 30%;
+		margin: 1.2%;
+	}
+}
+@media (max-width: 549px) {
+	.todos {
+		width: 45%;
+		margin: 2%;
+	}
+}
